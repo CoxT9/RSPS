@@ -1,0 +1,5 @@
+.idea/*
+out/*
+Server/bin/*
+Client/bin/*
+*.iml
