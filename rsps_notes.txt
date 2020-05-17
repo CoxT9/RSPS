@@ -1,0 +1,37 @@
+At the top, import javax.swing.SwingUtilities;
+the edit mousePressed void
+  if (mouseevent.isMetaDown()) {
+change that to
+ if(SwingUtilities.isRightMouseButton(e)) {
+and change the "else" instance following it to say
+ } else if(SwingUtilities.isLeftMouseButton(e)){
+and under each should have your clickModes. compile and you should be working.
+
+
+Next stuff to do:
+- finish off sound and music
+- save files
+- hosting
+- commands
+- what can admins do
+- produce items
+- some bosses
+- pvp
+- skillcapes
+- more npcs
+- use hyperion for commands
+???
+
+
+anIntArray1207 = sound
+anIntArray1241 = soundType
+anIntArray1250 = soundDelay
+cacheLocation = findcachedir
+
+
+stuff to do next:
+some more commands
+music
+hosting
+pvp
+persistence
